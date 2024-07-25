@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+ background: #460582;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+width: 1200px;
+background: #ffee00;
+margin: 10px auto;
+}
+.superior{
+background: #ffee00;
+overflow: hidden;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+color: #8400ff;
+}
+.logo{
+ float: left; 
+ width: 100px;
+ height: 100px;
+ padding: 35px;
+}
+/*estilos para el menu*/
+.menu{
+ float: left;
+ padding: 80px 100px 50px 200px;
+}
+.opciones li{
+float: left;
+list-style: none;
+}
+.opciones li a{
+    color: purple;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid purple;
+}
+.opciones li a:hover{
+background: #d1c411;
+}
+/*estilos para el cuerpo*/
+ .cuerpo{
+overflow: hidden;
+ }
+.caja{
+ float: left;
+ margin: 8px;
+ border: 1px solid;
+}
+.subtitulo{
+    background: #8400ff;
+}
+.servicios{
+color: white;
+text-align: center;
+padding: 15px 0;
+}
+.efecto:hover{ 
+
+cursor: pointer;
+-webkit-transform: scale(1.2);transform: scale(1.2);
+}
+.contenido{
+    padding: 7px;
+    text-align: justify;
+    text-align: center;
+    color: #8400ff;
+}
+.boton{
+padding: 15px 20px;
+margin: 20px 0;
+color: #d1c411;
+background: #8400ff;
+border-radius: 5px;
+cursor: pointer;
+}
+.boton:hover{
+background: #cdcdc581;
+}
+.titulo{
+text-align: center;
+padding: 20px 0 15px 0;
+color: #ffee00;
+font-size: 35px;
+border: solid 1px;
+background: #8400ff;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/*estilos del pie*/
+.pie{
+background: #8400ff;
+overflow: hidden;
+}
+.izquierda{
+float: left;
+width: 250px;
+padding: 35px;
+color: #ffee00;
+}
+.derecha{
+float: right;
+width: 250px;
+padding: 50px;
+cursor: pointer;
+}
+.abajo{
+color: #fffefe;
+font-size: 11px;
+padding: 10px;
+}
+.siguenos{
+text-align: center;
+color: white;
+}
